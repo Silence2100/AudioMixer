@@ -6,7 +6,7 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ButtonSFX
+  m_Name: ButtonGroup
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 320f681c3b9f6e449979e5b2fcea2a42
   m_Children: []
@@ -25,7 +25,7 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Music
+  m_Name: BackgroundGroup
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: a69aab213ede6f4408271b5c49d94432
   m_Children: []
@@ -73,7 +73,7 @@ AudioMixerController:
   - guid: 7cfc37c5855de4b42b2153ed227f365a
     name: MasterVolume
   - guid: f2af320985e6cb14a8465c1a18db2b15
-    name: MusicVolume
+    name: BackgroundVolume
   m_AudioMixerGroupViews:
   - guids:
     - 340d53f04a1ab494691f14df81c25e16
